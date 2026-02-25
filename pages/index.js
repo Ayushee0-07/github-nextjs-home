@@ -1,12 +1,9 @@
-import Link from 'next/link'
+import Hero from './components/hero'
 
-export default function IndexPage() {
+export default function Home() {
   return (
     <div>
-      Hello World.{' '}
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      <Hero />
     </div>
   )
 }
